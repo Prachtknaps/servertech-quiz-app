@@ -1,4 +1,3 @@
-# quiz.py
 import json
 import random
 
