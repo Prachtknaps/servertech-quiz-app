@@ -38,11 +38,11 @@ def create_quiz():
     questions = []
 
     while True:
-        print("Bitte gib eine Frage ein (Abbruch mit 'question --finish'):")
-        question_text = build_multiline_input_string('question --finish', "> ")
+        print("Bitte gib eine Frage ein (Abbruch mit 'question -f' oder 'question --finish'):")
+        question_text = build_multiline_input_string(['question -f', 'question --finish'], "> ")
 
-        print("Bitte gib die gültige(n) Antwort(en) ein (Abbruch mit 'answers --finish'):")
-        answer_options = build_multiline_input_list('answers --finish', "> ")
+        print("Bitte gib die gültige(n) Antwort(en) ein (Abbruch mit 'answers -f' oder 'answers --finish'):")
+        answer_options = build_multiline_input_list(['answers -f', 'answers --finish'], "> ")
 
         questions.append(Question(question_text, answer_options))
 

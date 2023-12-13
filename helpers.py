@@ -7,21 +7,21 @@ def get_non_empty_input(min_length, prompt=''):
             print(f"Eingabe zu kurz. Es sind mindestens {min_length} Zeichen erforderlich.")
 
 
-def build_multiline_input_string(prompt_end='', prompt=''):
+def build_multiline_input_string(prompt_end: list[str], prompt=''):
     lines = []
     while True:
         line = input(prompt)
-        if line.strip() == prompt_end:
+        if line.strip() in prompt_end:
             break
         lines.append(line)
     return '\n'.join(lines)
 
 
-def build_multiline_input_list(prompt_end='', prompt=''):
+def build_multiline_input_list(prompt_end: list[str], prompt=''):
     lines = []
     while True:
         line = input(prompt)
-        if line.strip() == prompt_end:
+        if line.strip() in prompt_end:
             break
         lines.append(line)
     return lines
