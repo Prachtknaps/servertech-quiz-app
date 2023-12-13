@@ -55,6 +55,10 @@ def create_quiz():
         else:
             print('Ungültige Eingabe. Deine Antwort wurde als \'Ja\' gewertet.')
 
+    if len(questions) < 3:
+        print("Konnte das Quiz nicht hinzufügen: Das Quiz muss mindestens 3 Fragen beinhalten.")
+        return
+
     quiz = Quiz(quiz_name, questions)
     quiz.save_to_file()
 
