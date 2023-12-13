@@ -1,0 +1,336 @@
+[
+  {
+    "name": "Ports",
+    "questions": [
+      {
+        "question": "Welchen Port verwendet SMTP?",
+        "answers": [
+          "25",
+          "Port 25"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet POP3?",
+        "answers": [
+          "110",
+          "Port 110"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet IMAP?",
+        "answers": [
+          "143",
+          "Port 143"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet FTP (Data) am Server?",
+        "answers": [
+          "20",
+          "Port 20"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet FTP (CMD) am Server?",
+        "answers": [
+          "21",
+          "Port 21"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet SSH?",
+        "answers": [
+          "22",
+          "Port 22"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet Telnet?",
+        "answers": [
+          "23",
+          "Port 23"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet HTTP?",
+        "answers": [
+          "80",
+          "Port 80"
+        ]
+      },
+      {
+        "question": "Welchen Port verwendet HTTPS?",
+        "answers": [
+          "443",
+          "Port 443"
+        ]
+      },
+      {
+        "question": "Über welchen Port gehen DNS-Anfragen mit maximal 512 Byte Länge?",
+        "answers": [
+          "53",
+          "Port 53",
+          "UDP Port 53",
+          "port 53",
+          "udp port 53"
+        ]
+      },
+      {
+        "question": "Über welchen Port gehen DNS-Anfragen mit mehr als 512 Byte Länge?",
+        "answers": [
+          "53",
+          "Port 53",
+          "TCP Port 53",
+          "port 53",
+          "tcp port 53"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Secure Shell",
+    "questions": [
+      {
+        "question": "Wie installiert man SSH?",
+        "answers": [
+          "servertec# apt-get install openssh-server",
+          "apt-get install openssh-server"
+        ]
+      },
+      {
+        "question": "In welcher Datei wird SSH konfiguriert?",
+        "answers": [
+          "/etc/ssh/sshd_config"
+        ]
+      },
+      {
+        "question": "Wie kann man den Remote-Zugriff des root-Users erlauben?",
+        "answers": [
+          "PermitRootLogin yes"
+        ]
+      },
+      {
+        "question": "In welcher Datei stehen die öffentlichen Schlüssels aller besuchten Server?",
+        "answers": [
+          "known_hosts",
+          "~/.ssh/known_hosts"
+        ]
+      },
+      {
+        "question": "In welcher Datei stehen die öffentlichen Schlüssel aller Clients, die sich zum Host verbinden dürfen?",
+        "answers": [
+          "authorized_keys",
+          "~/.ssh/authorized_keys"
+        ]
+      },
+      {
+        "question": "Wie erstellt man sich einen SSH-Key mit dem RSA-Verfahren?",
+        "answers": [
+          "ssh-keygen",
+          "ssh-keygen -t rsa"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Domain Name System",
+    "questions": [
+      {
+        "question": "Wie sieht ein Reverse Mapping der IP-Adresse 62.218.221.66 aus?",
+        "answers": [
+          "66.221.218.62.in-addr.arpa"
+        ]
+      },
+      {
+        "question": "Wie finde ich heraus, welche Nameserver für die Top-Level-Domain \".at\" zuständig sind?",
+        "answers": [
+          "servertec# host -t ns at.",
+          "host -t ns at."
+        ]
+      },
+      {
+        "question": "Wie finde ich heraus, wie viele Nameserver für die FH Joanneum zuständig sind?",
+        "answers": [
+          "servertec# host -t ns fh-joanneum.at",
+          "host -t ns fh-joanneum.at"
+        ]
+      },
+      {
+        "question": "Welcher Befehl wird häufig verwendet, um DNS-Abfragen durchzuführen?",
+        "answers": [
+          "nslookup",
+          "nslookup domain",
+          "nslookup address"
+        ]
+      },
+      {
+        "question": "Wie kann man feststellen, wie viele Ebenen bzw. Nameserver man durchsuchen muss, um die IP-Adresse der Seite \"www.fh-joanneum.at\" herauszufinden?",
+        "answers": [
+          "dig +norec +noques +nostats +nocmd www.fh-joanneum.at @a.root-servers.net"
+        ]
+      },
+      {
+        "question": "Welche Datei enthält den Hostnamen des Servers?",
+        "answers": [
+          "/etc/hostname"
+        ]
+      },
+      {
+        "question": "Welche Datei ist für die lokale Namensauflösung zuständig?",
+        "answers": [
+          "/etc/hosts"
+        ]
+      },
+      {
+        "question": "Welche Datei ist für die Definition der Domäne und der Nameserver für den Resolver zuständig?",
+        "answers": [
+          "/etc/resolv.conf"
+        ]
+      },
+      {
+        "question": "Wie kann man DNS installieren?",
+        "answers": [
+          "servertec# apt-get install dnsutils",
+          "apt-get install dnsutils"
+        ]
+      },
+      {
+        "question": "Welche Ressource Records gibt es?",
+        "answers": [
+          "Name, Gültigkeit, Klasse, Typ, Ressourcendaten"
+        ]
+      },
+      {
+        "question": "Welche Ressource Record Typen gibt es?",
+        "answers": [
+          "SOA, NS, A, AAAA, CNAME, MX, PTR",
+          "SOA (Start of Authority), NS (Nameserver), A Ressource Records, AAAA Ressource Records, CNAME (Alias), MX (Mail Exchanger), PTR (Pointer Records)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dynamic Host Configuration Protocol",
+    "questions": [
+      {
+        "question": "Wie können Adressen vergeben werden?",
+        "answers": [
+          "Statisch, dynamisch (DHCP), automatisch (permanent), hybrid"
+        ]
+      },
+      {
+        "question": "Welche Protokolle gibt es? Liste sie in der richtigen Reihenfolge auf.",
+        "answers": [
+          "DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK"
+        ]
+      },
+      {
+        "question": "Um welches Protokoll handelt es sich hier?\n\"Client informiert Server, dass die IP schon benutzt wird. Der Server sperrt die IP für weiteres.\"",
+        "answers": [
+          "DHCPDECLINE"
+        ]
+      },
+      {
+        "question": "Um welches Protokoll handelt es sich hier?\n\"Client gibt seine IP frei. (normalerweise beim Shutdown oder Wechsel verwendet)\"",
+        "answers": [
+          "DHCPRELEASE"
+        ]
+      },
+      {
+        "question": "Um welches Protokoll handelt es sich hier?\n\"Der Server verweigert eine Client Anfrage.\"",
+        "answers": [
+          "DHCPNAK"
+        ]
+      },
+      {
+        "question": "Um welches Protokoll handelt es sich hier?\n\"Beliefert Clients mit weiteren Informationen. (z.B. über andere Server wie NTP-Server)\"",
+        "answers": [
+          "DHCPINFORM"
+        ]
+      },
+      {
+        "question": "Um welches Protokoll handelt es sich hier?\n\"Pro-Aktiv an alle Clients vom Server gesendet, damit alle neue IPs anfordern.\"",
+        "answers": [
+          "DHCPFORCERENEW"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hyper Text Transfer Protocol",
+    "questions": [
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Liefert vom Server unterstützte Methoden und Merkmale.\"",
+        "answers": [
+          "OPTIONS"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Löscht eine Ressource am Server.\"",
+        "answers": [
+          "DELETE"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Zum Hochladen einer Ressource unter Angabe der Ziel-URL. Damit können Ressourcen auch modifiziert werden.\"",
+        "answers": [
+          "PUT"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Fordert unter Angabe einer URL eine Ressource vom Server. Daten werden in der URL übertragen.\"",
+        "answers": [
+          "GET"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Für HTTP-Tunnel mittels Proxy - Leitet die TPC-Verbindung weiter. Ab dann nur mehr TCP und kein HTTP mehr.\"",
+        "answers": [
+          "CONNECT"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Verlangt nur den Kopf (Header) einer Nachricht vom Server.\"",
+        "answers": [
+          "HEAD"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Sendet beliebige Datenmenge an Server im Inhalt (Body) einer Nachricht.\"",
+        "answers": [
+          "POST"
+        ]
+      },
+      {
+        "question": "Um welche HTTP-Methode handelt es sich hier?\n\"Liefert einen Request zurück, wie ihn der Server bekommen hat. Zum Debuggen verwendet - aber ein Sicherheitsrisiko!\"",
+        "answers": [
+          "TRACE"
+        ]
+      },
+      {
+        "question": "Welcher Befehl wird verwendet, um eine Website zu deaktivieren?",
+        "answers": [
+          "a2dissite"
+        ]
+      },
+      {
+        "question": "Welcher Befehl wird verwendet, um eine deaktivierte Website zu aktivieren?",
+        "answers": [
+          "a2ensite"
+        ]
+      },
+      {
+        "question": "Wie deaktiviert man ein Apache-Modul?",
+        "answers": [
+          "a2dismod"
+        ]
+      },
+      {
+        "question": "Welcher Apache-Befehl wird verwendet, um ein Modul zu aktivieren?",
+        "answers": [
+          "a2enmod"
+        ]
+      }
+    ]
+  }
+]
