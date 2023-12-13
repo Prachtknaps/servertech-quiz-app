@@ -330,6 +330,12 @@
         "answers": [
           "a2enmod"
         ]
+      },
+      {
+        "question": "In welchem Verzeichnis befinden sich die symbolischen Links zu aktivierten Apache-Websites?",
+        "answers": [
+          "/etc/apache2/sites-enabled", "/etc/apache2/sites-enabled/"
+        ]
       }
     ]
   }
