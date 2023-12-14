@@ -530,7 +530,7 @@
         "answers": [
           "B, D",
           "D, B",
-          "Der Dienst \"dhclent\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+          "Der Dienst \"dhclient\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
           "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
         ]
       },
