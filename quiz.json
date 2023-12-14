@@ -486,13 +486,15 @@
       {
         "question": "Mit Welcher Konfigurationsdatei bestimme ich über welches Netzwerk-Interface der DCHP dienst läuft?\nA: /etc/dhcp/dhcp_config\nB: /etc/network/interfaces\nC: /etc/default/isc-dhcp-server\nD: /etc/resolv.conf",
         "answers": [
-          "/etc/default/isc-dhcp-server"
+          "/etc/default/isc-dhcp-server",
+          "C"
         ]
       },
       {
         "question": "wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
         "answers": [
-          "Jede Anfrage braucht einen Prozess"
+          "Jede Anfrage braucht einen Prozess",
+          "B"
         ]
       },
       {
@@ -501,14 +503,17 @@
           "FCGI, Interpreter als Servermodule",
           "FCGI - Fast Common Gateway Interface, Interpreter als Servermodule",
           "Interpreter als Servermodule, FCGI",
-          "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface"
+          "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface",
+          "B, D",
+          "D, B"
         ]
       },
       {
         "question": "Welche eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
         "answers": [
           "Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS",
-          "ine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns"
+          "eine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns",
+          "B"
         ]
       },
       {
