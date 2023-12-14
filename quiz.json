@@ -528,6 +528,28 @@
           "Der Dienst \"dhclent\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
           "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
         ]
+      },
+      {
+        "question": "Wie kann man die Website \"swd12\" von der Apache 2 Konfiguration entfernen?\nA: mit dem Befehl \"a2enmod swd12\" \nB: mit dem Befehl \"rm ../sites-enabled/swd12\" \nC: mit dem Befehl \"a2dissite swd12\" \nD: mit dem Befehl \"a2dismod default_swd12\"",
+        "answers": [
+          "B, C",
+          "C, B",
+          "mit dem Befehl \"rm ../sites-enabled/swd12\", mit dem Befehl \"a2dissite swd12\""
+        ]
+      },
+      {
+        "question": "Welches Verzeichnis liefert Logs zu verschiedenen Diensten?\nA: /opt/log \nB: /var/www/log \nC: /log \nD: /var/log",
+        "answers": [
+          "D",
+          "/var/log"
+        ]
+      },
+      {
+        "question": "Ihr Server hat eine einzelne IP Adresse und mehrere CNAME Einträge im DNS zeigen auf ihn.\n wie bieten sie die Webauftritte für www.stiegl.at und www.murauer.at am selben Webserver an?\nA: Sie installieren einen zweiten Webserver\nB: sie verwenden IP-Basiertes VH\nC: sie verwenden namesbasiertes VH\nD: sie verwenden portbasiertes VH",
+        "answers": [
+          "C",
+          "sie verwenden namesbasiertes VH"
+        ]
       }
     ]
   }
