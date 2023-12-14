@@ -288,16 +288,14 @@
         ]
       },
       {
-        "question": "wie war das verfahren vor DHCP? gib die 4 schritte an",
+        "question": "wie war das verfahren vor DHCP? gib die 4 schritte in der richtigen reihenfolge an\na) PING zum Host \nb) Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben\nc) Warten\nd) Vergebene IP in Verwendung?",
         "answers": [
-          "Vergebene IP in Verwendung?, PING zum Host, Warten, Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben",
-          "vergebene ip in verwendung?, ping zum host, warten, wenn keine rückmeldung kommt kann man die ip adresse vergeben"
-        ]
-      },
-      {
-        "question": "Was verstehst du unter der 'Lease-Zeit'",
-        "answers": [
-          "Die IP Vergabe ist nur auf Zeit, Danach muss der Client eine neue IP holen, Die Lease Zeit kann konfiguriert werden, Keine Addresskonflikte durch vergessene PCs"
+          "C, A, D, B",
+          "CADB",
+          "cadb",
+          "c, a, d, b",
+          "c-a-d-b",
+          "C-A-D-B"
         ]
       }
     ]
