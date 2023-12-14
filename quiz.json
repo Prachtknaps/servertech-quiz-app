@@ -290,12 +290,12 @@
       {
         "question": "wie war das verfahren vor DHCP? gib die 4 schritte in der richtigen reihenfolge an\na) PING zum Host \nb) Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben\nc) Warten\nd) Vergebene IP in Verwendung?",
         "answers": [
-          "C, A, D, B",
-          "CADB",
-          "cadb",
-          "c, a, d, b",
-          "c-a-d-b",
-          "C-A-D-B"
+          "D, A, C, B",
+          "DACB",
+          "dacb",
+          "d, a, c, b",
+          "d-a-c-b",
+          "D-A-C-B"
         ]
       }
     ]
