@@ -227,12 +227,16 @@
         ]
       },
       {
-        "question": "Wie funktioniert DNS? (ordne die Schritte in der richtigen Reihenfolge)\na) Die IP-Adresse wird an den PC zurückgegeben\nb) Der DNS-Server gibt der Organisationseinheit die Adresse zurück\nc) Anfrage am PC über Resolver\nd) Ein DNS-Server wird rekursiv gefragt\ne) Der Root-Server gibt einen Top-Level-Domain-Server zurück\nf) Der DNS-Server fragt einen Root-Server\ng) Der Top-Level-Domain-Server gibt den Server einer Organisationseinheit zurück",
+        "question": "Wie funktioniert DNS? (ordne die Schritte in der richtigen Reihenfolge)\na) Die IP-Adresse wird an den PC zurückgegeben\nb) Die Organisationseinheit gibt dem DNS-Server die Adresse zurück\nc) Anfrage am PC über Resolver\nd) Ein DNS-Server wird rekursiv gefragt\ne) Der Root-Server gibt einen Top-Level-Domain-Server zurück\nf) Der DNS-Server fragt einen Root-Server\ng) Der Top-Level-Domain-Server gibt den Server einer Organisationseinheit zurück",
         "answers": [
           "c, d, f, e, g, b, a",
           "cdfegba",
           "c-d-f-e-g-b-a",
-          "c - d - f - e - g - b - a"
+          "c - d - f - e - g - b - a",
+          "C, D, F, E, G, B, A",
+          "CDFEGBA",
+          "C-D-F-E-G-B-A",
+          "C - D - F - E - G - B - A"
         ]
       }
     ]
@@ -284,16 +288,14 @@
         ]
       },
       {
-        "question": "wie war das verfahren vor DHCP? gib die 4 schritte an",
+        "question": "wie war das verfahren vor DHCP? gib die 4 schritte in der richtigen reihenfolge an\na) PING zum Host \nb) Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben\nc) Warten\nd) Vergebene IP in Verwendung?",
         "answers": [
-          "Vergebene IP in Verwendung?, PING zum Host, Warten, Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben",
-          "vergebene ip in verwendung?, ping zum host, warten, wenn keine rückmeldung kommt kann man die ip adresse vergeben"
-        ]
-      },
-      {
-        "question": "Was verstehst du unter der 'Lease-Zeit'",
-        "answers": [
-          "Die IP Vergabe ist nur auf Zeit, Danach muss der Client eine neue IP holen, Die Lease Zeit kann konfiguriert werden, Keine Addresskonflikte durch vergessene PCs"
+          "D, A, C, B",
+          "DACB",
+          "dacb",
+          "d, a, c, b",
+          "d-a-c-b",
+          "D-A-C-B"
         ]
       }
     ]
@@ -404,6 +406,156 @@
           "Active Server Pages, Java Server Pages, Pre-Hypertext Processor",
           "active server pages, java server pages, pre-hypertext processor",
           "ASP (Active Server Pages), JSP (Java Server Pages), PHP (Pre-Hypertext Processor)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SMTP-IMAP-POP3",
+    "questions": [
+      {
+        "question": "welches Protokoll ist für weiterleitung und versenden von Mails zuständig?",
+        "answers": [
+          "SMTP"
+        ]
+      },
+      {
+        "question": "welches Protokoll ist für Auflisten, Abholen und Löschen von Mails am Server zuständig?",
+        "answers": [
+          "POP3"
+        ]
+      },
+      {
+        "question": "Welches Protokoll wird häufig für den Empfang von E-Mails auf einem Mailserver verwendet?",
+        "answers": [
+          "IMAP"
+        ]
+      },
+      {
+        "question": "Wofür steht MDA?",
+        "answers": [
+          "Mail Distribution Agent",
+          "mail distribution agent"
+        ]
+      },
+      {
+        "question": "Welche 2 Protokolle arbeiten im MDA?",
+        "answers": [
+          "POP3, IMAP",
+          "IMAP, POP3"
+        ]
+      },
+      {
+        "question": "Wofür steht MTA?",
+        "answers": [
+          "Mail Transfer Agent",
+          "mail transfer agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MSA?",
+        "answers": [
+          "Mail Submission Agent",
+          "mail submission agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MUA?",
+        "answers": [
+          "Mail User Agent",
+          "mail user agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MX?",
+        "answers": [
+          "Mail Exchanger",
+          "mail exchanger"
+        ]
+      },
+      {
+        "question": "Wofür steht MIME?",
+        "answers": [
+          "Mulitpurpose Internet Mail Extension",
+          "mulitpurpose internet mail extension"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Übungsprüfung KNOLL 1",
+    "questions": [
+      {
+        "question": "Mit Welcher Konfigurationsdatei bestimme ich über welches Netzwerk-Interface der DCHP dienst läuft?\nA: /etc/dhcp/dhcp_config\nB: /etc/network/interfaces\nC: /etc/default/isc-dhcp-server\nD: /etc/resolv.conf",
+        "answers": [
+          "/etc/default/isc-dhcp-server",
+          "C"
+        ]
+      },
+      {
+        "question": "wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
+        "answers": [
+          "Jede Anfrage braucht einen Prozess",
+          "B"
+        ]
+      },
+      {
+        "question": "welche Alternativen gibt es für das CGI?\nA: AJAX - Asynchronous Javascript and XML\nB: FCGI - Fast Common Gateway Interface\nC: PAT - port and Address Translation\nD: Interpreter als servermodule\nE: HTML5 und CSS3",
+        "answers": [
+          "FCGI, Interpreter als Servermodule",
+          "FCGI - Fast Common Gateway Interface, Interpreter als Servermodule",
+          "Interpreter als Servermodule, FCGI",
+          "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface",
+          "B, D",
+          "D, B"
+        ]
+      },
+      {
+        "question": "Welche eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
+        "answers": [
+          "Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS",
+          "eine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns",
+          "B"
+        ]
+      },
+      {
+        "question": "Welche Aussagen treffen auf einen \"Slave Name Server\" zu?\nA: Er synchronisiert sich mit dem sekundären Nameserver\nB: Er dient dem \"Load Balancing\" und der Redundanz\nC: er beantwortet Anfragen aus seiner Zonendattei/-datenbank\nD: er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
+        "answers": [
+          "Er dient dem \"Load Balancing\" und der Redundanz, er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
+          "r dient dem \"load balancing\" und der redundanz, er bekommt daten durch vollen oder imkrementellen zonentransfer",
+          "B, D",
+          "D, B"
+        ]
+      },
+      {
+        "question": "was schließen sie aus folgendem snippet:\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+        "answers": [
+          "B, D",
+          "D, B",
+          "Der Dienst \"dhclient\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+          "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
+        ]
+      },
+      {
+        "question": "Wie kann man die Website \"swd12\" von der Apache 2 Konfiguration entfernen?\nA: mit dem Befehl \"a2enmod swd12\" \nB: mit dem Befehl \"rm ../sites-enabled/swd12\" \nC: mit dem Befehl \"a2dissite swd12\" \nD: mit dem Befehl \"a2dismod default_swd12\"",
+        "answers": [
+          "B, C",
+          "C, B",
+          "mit dem Befehl \"rm ../sites-enabled/swd12\", mit dem Befehl \"a2dissite swd12\""
+        ]
+      },
+      {
+        "question": "Welches Verzeichnis liefert Logs zu verschiedenen Diensten?\nA: /opt/log \nB: /var/www/log \nC: /log \nD: /var/log",
+        "answers": [
+          "D",
+          "/var/log"
+        ]
+      },
+      {
+        "question": "Ihr Server hat eine einzelne IP Adresse und mehrere CNAME Einträge im DNS zeigen auf ihn.\n wie bieten sie die Webauftritte für www.stiegl.at und www.murauer.at am selben Webserver an?\nA: Sie installieren einen zweiten Webserver\nB: sie verwenden IP-Basiertes VH\nC: sie verwenden namesbasiertes VH\nD: sie verwenden portbasiertes VH",
+        "answers": [
+          "C",
+          "sie verwenden namesbasiertes VH"
         ]
       }
     ]
