@@ -559,5 +559,186 @@
         ]
       }
     ]
+  },
+  {
+    "name": "FTP - NFS",
+    "questions": [
+      {
+        "question": "Welche Kategorien von Netzwerkdateisystemen gibt es?",
+        "answers": [
+          "Verteilte Dateisysteme, Geteilte Dateisysteme",
+          "Verteilte Dateisysteme, geteilte Dateisysteme",
+          "Geteilte Dateisysteme, Verteilte Dateisysteme",
+          "Geteilte Dateisysteme, verteilte Dateisysteme",
+          "verteilte dateisysteme, geteilte dateisysteme",
+          "geteilte dateisysteme, verteilte dateisysteme"
+        ]
+      },
+      {
+        "question": "Welche Kategorie von Netzwerkdateisystemen ermöglicht den verteilten Zugriff auf Daten/Dateien über ein Netzwerkprotokoll?",
+        "answers": [
+          "Verteilte Dateisysteme",
+          "Verteilte dateisysteme",
+          "verteilte dateisysteme",
+          "Distributed File Systems",
+          "distributed file systems"
+        ]
+      },
+      {
+        "question": "Welches Netzwerkdateisystem ist für Linux-Systeme bekannt und ermöglicht den blockbasierten gemeinsamen Zugriff auf Daten?",
+        "answers": [
+          "GFS",
+          "gfs",
+          "Global File System",
+          "global file system",
+          "GFS (Global File System)",
+          "gfs (global file system)"
+        ]
+      },
+      {
+        "question": "Was ist die Hauptfunktion des File Transfer Protocol (FTP) auf der Anwendungsschicht?\na) Dateikompression\nb) Authentifizierung von Benutzern\nc) Netzwerkadressübersetzung (NAT)\nd) Übertragung von Dateien über das Netzwerk",
+        "answers": [
+          "d", "D", "Übertragung von Dateien über das Netzwerk", "übertragung von dateien über das netzwerk", "d) Übertragung von Dateien über das Netzwerk"
+        ]
+      },
+      {
+        "question": "Was sind die Ziele des FTP?",
+        "answers": [
+          "File Sharing, Remote File Access, Usability, zuverlässige Datenübertragung"
+        ]
+      },
+      {
+        "question": "Welche FTP Verbindungsarten gibt es?",
+        "answers": [
+          "Aktiv, Passiv", "Aktiv, passiv", "Aktiv und passiv", "aktiv und passiv", "aktiv, passiv"
+        ]
+      },
+      {
+        "question": "Was ist der Standardmodus für reine Textdateien in FTP?",
+        "answers": [
+          "ASCII Mode", "ASCII Modus", "ASCII", "ascii"
+        ]
+      },
+      {
+        "question": "Welcher Übertragungsmodus wird für Dateien mit Binärdaten (z.B. Bilder) empfohlen?",
+        "answers": [
+          "Binary Mode", "Binary Modus", "Binary", "binary"
+        ]
+      },
+      {
+        "question": "Was geschieht im Binary Mode während der Dateiübertragung?\na) Die Datei wird komprimiert\nb) Die Zeilenstruktur wird angepasst\nc) Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei\nd) Es wird eine Fehlerprüfung durchgeführt",
+        "answers": [
+          "c", "Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei", "die übertragung erfolgt byte für byte, ohne veränderungen an der datei"
+        ]
+      },
+      {
+        "question": "Warum wird der ASCII Mode in FTP für die Übertragung von reinen Textdateien bevorzugt?\na) Schnellere Übertragung\nb) Bessere Kompatibilität mit Grafikdateien\nc) Anpassung der Zeilenstruktur an das Ziel-Betriebssystem\nd) Unterstützung für internationale Zeichensätze",
+        "answers": [
+          "c", "Anpassung der Zeilenstruktur an das Ziel-Betriebssystem", "anpassung der zeilenstruktur an das ziel-betriebssystem"
+        ]
+      },
+      {
+        "question": "Welches FTP-Feature ermöglicht dsa Fortführen einer unterbrochenen Dateiübertragung und wird durch das 'Restart'-Flag im Header gesteuert?",
+        "answers": [
+          "Resume", "resume", "RESUME"
+        ]
+      },
+      {
+        "question": "Welches Protokoll wird generell für die Kommunikation beim File Transfer Protocol verwendet?",
+        "answers": [
+          "TCP", "tcp"
+        ]
+      },
+      {
+        "question": "Welche Übertragungsart wird in FTP am häufigsten verwendet und ermöglicht die kontinuierliche Übertragung von Daten?",
+        "answers": [
+          "Stream", "stream"
+        ]
+      },
+      {
+        "question": "Welche Übertragungsarten gibt es im FTP?",
+        "answers": [
+          "Stream, Block, Gepackt", "stream, block, gepackt", "Stream, block, gepackt"
+        ]
+      },
+      {
+        "question": "Welche FTP-Erweiterung bietet die Möglichkeit einer verschlüsselten Sitzung durch die Verwendung von TLS?",
+        "answers": [
+          "FTPS", "ftps"
+        ]
+      },
+      {
+        "question": "Welches FTP-Sicherheitsprotokoll verwendet SSH, um sowohl den Befehls- als auch den Datenkanal zu verschlüsseln?",
+        "answers": [
+          "SFTP", "sftp"
+        ]
+      },
+      {
+        "question": "Was ist der Hauptunterschied zwischen FTPS Explicit und FTPS Implicit?\na) Verschlüsselung der Dateien\nb) Notwendigkeit der Verschlüsselung\nc) Verwendung unterschiedlicher Ports\nd) Unterstützung von SCP",
+        "answers": [
+          "b", "B", "Notwendigkeit der Verschlüsselung", "notwendigkeit der verschlüsselung"
+        ]
+      },
+      {
+        "question": "Warum ist es für einen üblichen FTP-Client nicht möglich, sich an einem SFTP-Server anzumelden?\na) SFTP erfordert eine spezielle Authentifizierungsmethode\nb) SFTP verwendet unterschiedliche TCP-Ports\nc) SFTP erfordert eine Verschlüsselung durch SSL\nd) SFTP ist ein anderes Protokoll als FTP",
+        "answers": [
+          "d", "D", "SFTP ist ein anderes Protokoll als FTP", "sftp ist ein anderes protokoll als ftp"
+        ]
+      },
+      {
+        "question": "Was ist der Zweck von WebDAV im Kontext von FTP?\na) Verbesserung der Verschlüsselung\nb) Web-basierte Dateiauthorisierung und Versionierung\nc) Authentifizierung über Lightweight Directory Access Protocol (LDAP)\nd) Integration mit Active Directory (AD)",
+        "answers": [
+          "b", "B", "Web-basierte Dateiauthorisierung und Versionierung", "web-basierte dateiauthorisierung und versionierung"
+        ]
+      },
+      {
+        "question": "Welches Protokoll ermöglicht die Integration von FTP mit Lightweight Directory Access Protocol und Active Directory für die Authentifizierung?",
+        "answers": [
+          "LDAP", "ldap"
+        ]
+      },
+      {
+        "question": "Was bedeutet die Abkürzung 'PXE' im Kontext von Netzwerkbootvorgängen?",
+        "answers": [
+          "Preboot eXecution Environment"
+        ]
+      },
+      {
+        "question": "Was ist eine zwingende Voraussetzung für PXE, um den Netzwerkbootvorgang zu initiieren?",
+        "answers": [
+          "DHCP", "dhcp", "Dynamic Host Configuration Protocol", "dynamic host configuration protocol"
+        ]
+      },
+      {
+        "question": "Was bedeutet die Abkürzung NFS im Kontext von Dateisystemen?",
+        "answers": [
+          "Network File System", "network file system"
+        ]
+      },
+      {
+        "question": "Welche NFS-Option kann verwendet werden, um die Ausführung von SUID-Binärdateien auf dem NFS-Client zu verhindern?",
+        "answers": [
+          "nosuid", "NOSUID"
+        ]
+      },
+      {
+        "question": "Welche NFS-Version bietet Verschlüsselung an?",
+        "answers": [
+          "NFS4", "nfs4"
+        ]
+      },
+      {
+        "question": "Welcher Port wird für die Kommunikation mit dem NFS-Portmapper verwendet?",
+        "answers": [
+          "111 UDP", "111 udp", "Port 111 UDP", "port 111 udp", "UDP Port 111", "udp port 111"
+        ]
+      },
+      {
+        "question": "Was charakterisiert NFSv4 als 'state-full' Protokoll?\na) Es verfolgt den Status der übertragenen Daten\nb) Es verwendet den Zustand des Clients zur Authentifizierung\nc) Es speichert den Zustand des Dateisystems auf dem Server\nd) Es erfordert eine permanente Netzwerkverbindung während der Übertragung",
+        "answers": [
+          "a", "A", "Es verfolgt den Status der übertragenen Daten", "ss verfolgt den status der übertragenen daten"
+        ]
+      }
+    ]
   }
 ]
