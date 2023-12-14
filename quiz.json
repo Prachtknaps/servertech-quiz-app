@@ -357,6 +357,22 @@
         "answers": [
           "/etc/apache2/sites-enabled", "/etc/apache2/sites-enabled/"
         ]
+      },
+      {
+        "question": "Welche Arten von Virtual Hosting gibt es?",
+        "answers": [
+          "Namensbasiert, Portbasiert, IP-basiert",
+          "Namensbasiert, portbasiert, IP-basiert",
+          "Namensbasiertes Virtual Hosting, Portbasiertes Virtual Hosting, IP-basiertes Virtual Hosting",
+          "Namensbasiertes Virtual Hosting, portbasiertes Virtual Hosting, IP-basiertes Virtual Hosting"
+        ]
+      },
+      {
+        "question": "Welche CGI-Alternativen gibt es?",
+        "answers": [
+          "Interpreter als Server Module, Fast CGI",
+          "Interpreter als Server Module, FCGI"
+        ]
       }
     ]
   }
