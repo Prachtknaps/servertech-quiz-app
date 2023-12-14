@@ -479,5 +479,56 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Übungsprüfung KNOLL 1",
+    "questions": [
+      {
+        "question": "Mit Welcher Konfigurationsdatei bestimme ich über welches Netzwerk-Interface der DCHP dienst läuft?\nA: /etc/dhcp/dhcp_config\nB: /etc/network/interfaces\nC: /etc/default/isc-dhcp-server\nD: /etc/resolv.conf",
+        "answers": [
+          "/etc/default/isc-dhcp-server"
+        ]
+      },
+      {
+        "question": "wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
+        "answers": [
+          "Jede Anfrage braucht einen Prozess"
+        ]
+      },
+      {
+        "question": "welche Alternativen gibt es für das CGI?\nA: AJAX - Asynchronous Javascript and XML\nB: FCGI - Fast Common Gateway Interface\nC: PAT - port and Address Translation\nD: Interpreter als servermodule\nE: HTML5 und CSS3",
+        "answers": [
+          "FCGI, Interpreter als Servermodule",
+          "FCGI - Fast Common Gateway Interface, Interpreter als Servermodule",
+          "Interpreter als Servermodule, FCGI",
+          "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface"
+        ]
+      },
+      {
+        "question": "Welche eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
+        "answers": [
+          "Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS",
+          "ine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns"
+        ]
+      },
+      {
+        "question": "Welche Aussagen treffen auf einen \"Slave Name Server\" zu?\nA: Er synchronisiert sich mit dem sekundären Nameserver\nB: Er dient dem \"Load Balancing\" und der Redundanz\nC: er beantwortet Anfragen aus seiner Zonendattei/-datenbank\nD: er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
+        "answers": [
+          "Er dient dem \"Load Balancing\" und der Redundanz, er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
+          "r dient dem \"load balancing\" und der redundanz, er bekommt daten durch vollen oder imkrementellen zonentransfer",
+          "B, D",
+          "D, B"
+        ]
+      },
+      {
+        "question": "was schließen sie aus folgendem snippet:\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+        "answers": [
+          "B, D",
+          "D, B",
+          "Der Dienst \"dhclent\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+          "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
+        ]
+      }
+    ]
   }
 ]
