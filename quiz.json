@@ -110,7 +110,7 @@
         ]
       },
       {
-        "question": "In welcher Datei wird SSH konfiguriert?",
+        "question": "In welcher Datei wird SSH konfiguriert? (mit absolutem pfad)",
         "answers": [
           "/etc/ssh/sshd_config"
         ]
@@ -243,7 +243,8 @@
       {
         "question": "Wie können Adressen vergeben werden?",
         "answers": [
-          "Statisch, dynamisch (DHCP), automatisch (permanent), hybrid"
+          "Statisch, dynamisch (DHCP), automatisch (permanent), hybrid",
+          "Statisch, dynamisch, automatisch, hybrid"
         ]
       },
       {
@@ -390,30 +391,6 @@
           "Active Server Pages, Java Server Pages, Pre-Hypertext Processor",
           "active server pages, java server pages, pre-hypertext processor",
           "ASP (Active Server Pages), JSP (Java Server Pages), PHP (Pre-Hypertext Processor)"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "DHCP",
-    "questions": [
-      {
-        "question": "welche DCHP anfragen gibt es?",
-        "answers": [
-          "DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK",
-          "dhcpdiscover, dhcpoffer, dhcprequest, dhcpack"
-        ]
-      },
-      {
-        "question": "welches protokoll gibt an wenn die anfrage nicht durchgeführt werden kann?",
-        "answers": [
-          "DHCPNAK"
-        ]
-      },
-      {
-        "question": "welches protokoll wird gesendet um alle clients IP zu erneuern?",
-        "answers": [
-          "DHCPFORCERENEW"
         ]
       }
     ]
