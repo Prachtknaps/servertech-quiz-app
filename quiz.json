@@ -141,6 +141,13 @@
           "ssh-keygen",
           "ssh-keygen -t rsa"
         ]
+      },
+      {
+        "question": "Was sind die Funktionen des Domain Name System?",
+        "answers": [
+          "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, SCP, SFTP",
+          "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, Sicheres Kopieren im Netzwerk, Sicherer Datentransfer im Netzwerk"
+        ]
       }
     ]
   },
@@ -372,6 +379,15 @@
         "answers": [
           "Interpreter als Server Module, Fast CGI",
           "Interpreter als Server Module, FCGI"
+        ]
+      },
+      {
+        "question": "Welche Technologien ermöglichen das Generieren dynamischer Inhalte?",
+        "answers": [
+          "ASP, JSP, PHP", "asp, jsp, php",
+          "Active Server Pages, Java Server Pages, Pre-Hypertext Processor",
+          "active server pages, java server pages, pre-hypertext processor",
+          "ASP (Active Server Pages), JSP (Java Server Pages), PHP (Pre-Hypertext Processor)"
         ]
       }
     ]
