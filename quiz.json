@@ -407,5 +407,77 @@
         ]
       }
     ]
+  },
+  {
+    "name": "SMTP-IMAP-POP3",
+    "questions": [
+      {
+        "question": "welches Protokoll ist für weiterleitung und versenden von Mails zuständig?",
+        "answers": [
+          "SMTP"
+        ]
+      },
+      {
+        "question": "welches Protokoll ist für Auflisten, Abholen und Löschen von Mails am Server zuständig?",
+        "answers": [
+          "POP3"
+        ]
+      },
+      {
+        "question": "Welches Protokoll wird häufig für den Empfang von E-Mails auf einem Mailserver verwendet?",
+        "answers": [
+          "IMAP"
+        ]
+      },
+      {
+        "question": "Wofür steht MDA?",
+        "answers": [
+          "Mail Distribution Agent",
+          "mail distribution agent"
+        ]
+      },
+      {
+        "question": "Welche 2 Protokolle arbeiten im MDA?",
+        "answers": [
+          "POP3, IMAP",
+          "IMAP, POP3"
+        ]
+      },
+      {
+        "question": "Wofür steht MTA?",
+        "answers": [
+          "Mail Transfer Agent",
+          "mail transfer agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MSA?",
+        "answers": [
+          "Mail Submission Agent",
+          "mail submission agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MUA?",
+        "answers": [
+          "Mail User Agent",
+          "mail user agent"
+        ]
+      },
+      {
+        "question": "Wofür steht MX?",
+        "answers": [
+          "Mail Exchanger",
+          "mail exchanger"
+        ]
+      },
+      {
+        "question": "Wofür steht MIME?",
+        "answers": [
+          "Mulitpurpose Internet Mail Extension",
+          "mulitpurpose internet mail extension"
+        ]
+      }
+    ]
   }
 ]
