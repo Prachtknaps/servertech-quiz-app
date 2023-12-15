@@ -152,6 +152,13 @@
         ]
       },
       {
+        "question": "Welche Arten von DNS-Servern gibt es?",
+        "answers": [
+          "Caching Name Server, Forwarding Name Server, Stealth Name Server, Authoritative Only Name Server, Split Horizon Name Server",
+          "Caching Name Servers, Forwarding Name Servers, Stealth Name Servers, Authoritative Only Name Servers, Split Horizon Name Servers"
+        ]
+      },
+      {
         "question": "Wie finde ich heraus, welche Nameserver für die Top-Level-Domain \".at\" zuständig sind?",
         "answers": [
           "servertec# host -t ns at.",
