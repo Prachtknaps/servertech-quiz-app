@@ -70,9 +70,7 @@
         "answers": [
           "53",
           "Port 53",
-          "UDP Port 53",
-          "port 53",
-          "udp port 53"
+          "UDP Port 53"
         ]
       },
       {
@@ -80,9 +78,7 @@
         "answers": [
           "53",
           "Port 53",
-          "TCP Port 53",
-          "port 53",
-          "tcp port 53"
+          "TCP Port 53"
         ]
       },
       {
@@ -232,11 +228,7 @@
           "c, d, f, e, g, b, a",
           "cdfegba",
           "c-d-f-e-g-b-a",
-          "c - d - f - e - g - b - a",
-          "C, D, F, E, G, B, A",
-          "CDFEGBA",
-          "C-D-F-E-G-B-A",
-          "C - D - F - E - G - B - A"
+          "c - d - f - e - g - b - a"
         ]
       }
     ]
@@ -290,12 +282,9 @@
       {
         "question": "wie war das verfahren vor DHCP? gib die 4 schritte in der richtigen reihenfolge an\na) PING zum Host \nb) Wenn keine Rückmeldung kommt kann man die IP Adresse vergeben\nc) Warten\nd) Vergebene IP in Verwendung?",
         "answers": [
-          "D, A, C, B",
-          "DACB",
           "dacb",
           "d, a, c, b",
-          "d-a-c-b",
-          "D-A-C-B"
+          "d-a-c-b"
         ]
       }
     ]
@@ -402,9 +391,7 @@
         "question": "Welche Technologien ermöglichen das Generieren dynamischer Inhalte?",
         "answers": [
           "ASP, JSP, PHP",
-          "asp, jsp, php",
           "Active Server Pages, Java Server Pages, Pre-Hypertext Processor",
-          "active server pages, java server pages, pre-hypertext processor",
           "ASP (Active Server Pages), JSP (Java Server Pages), PHP (Pre-Hypertext Processor)"
         ]
       }
@@ -434,8 +421,7 @@
       {
         "question": "Wofür steht MDA?",
         "answers": [
-          "Mail Distribution Agent",
-          "mail distribution agent"
+          "Mail Distribution Agent"
         ]
       },
       {
@@ -448,36 +434,31 @@
       {
         "question": "Wofür steht MTA?",
         "answers": [
-          "Mail Transfer Agent",
-          "mail transfer agent"
+          "Mail Transfer Agent"
         ]
       },
       {
         "question": "Wofür steht MSA?",
         "answers": [
-          "Mail Submission Agent",
-          "mail submission agent"
+          "Mail Submission Agent"
         ]
       },
       {
         "question": "Wofür steht MUA?",
         "answers": [
-          "Mail User Agent",
-          "mail user agent"
+          "Mail User Agent"
         ]
       },
       {
         "question": "Wofür steht MX?",
         "answers": [
-          "Mail Exchanger",
-          "mail exchanger"
+          "Mail Exchanger"
         ]
       },
       {
         "question": "Wofür steht MIME?",
         "answers": [
-          "Multipurpose Internet Mail Extension",
-          "multipurpose internet mail extension"
+          "Multipurpose Internet Mail Extension"
         ]
       }
     ]
@@ -489,14 +470,14 @@
         "question": "Mit Welcher Konfigurationsdatei bestimme ich über welches Netzwerk-Interface der DCHP dienst läuft?\nA: /etc/dhcp/dhcp_config\nB: /etc/network/interfaces\nC: /etc/default/isc-dhcp-server\nD: /etc/resolv.conf",
         "answers": [
           "/etc/default/isc-dhcp-server",
-          "C", "c"
+          "C"
         ]
       },
       {
         "question": "Wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
         "answers": [
           "Jede Anfrage braucht einen Prozess",
-          "B", "b"
+          "B"
         ]
       },
       {
@@ -506,32 +487,27 @@
           "FCGI - Fast Common Gateway Interface, Interpreter als Servermodule",
           "Interpreter als Servermodule, FCGI",
           "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface",
-          "B, D", "b, d",
-          "D, B", "d, b"
+          "B, D", "D, B"
         ]
       },
       {
         "question": "Welche Eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
         "answers": [
           "Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS",
-          "eine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns",
-          "B", "b"
+          "B"
         ]
       },
       {
         "question": "Welche Aussagen treffen auf einen \"Slave Name Server\" zu?\nA: Er synchronisiert sich mit dem sekundären Nameserver\nB: Er dient dem \"Load Balancing\" und der Redundanz\nC: er beantwortet Anfragen aus seiner Zonendattei/-datenbank\nD: er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
         "answers": [
           "Er dient dem \"Load Balancing\" und der Redundanz, er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
-          "r dient dem \"load balancing\" und der redundanz, er bekommt daten durch vollen oder imkrementellen zonentransfer",
-          "B, D", "b, d",
-          "D, B", "d, b"
+          "B, D", "D, B"
         ]
       },
       {
         "question": "Was schließen Sie aus folgendem Snippet?\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
         "answers": [
-          "B, D", "b, d",
-          "D, B", "d, b",
+          "B, D", "D, B",
           "Der Dienst \"dhclient\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
           "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
         ]
@@ -539,22 +515,21 @@
       {
         "question": "Wie kann man die Website \"swd12\" von der Apache 2 Konfiguration entfernen?\nA: mit dem Befehl \"a2enmod swd12\" \nB: mit dem Befehl \"rm ../sites-enabled/swd12\" \nC: mit dem Befehl \"a2dissite swd12\" \nD: mit dem Befehl \"a2dismod default_swd12\"",
         "answers": [
-          "B, C", "b, c",
-          "C, B", "c, b",
+          "B, C", "C, B",
           "mit dem Befehl \"rm ../sites-enabled/swd12\", mit dem Befehl \"a2dissite swd12\""
         ]
       },
       {
         "question": "Welches Verzeichnis liefert Logs zu verschiedenen Diensten?\nA: /opt/log \nB: /var/www/log \nC: /log \nD: /var/log",
         "answers": [
-          "D", "d",
+          "D",
           "/var/log"
         ]
       },
       {
         "question": "Ihr Server hat eine einzelne IP Adresse und mehrere CNAME Einträge im DNS zeigen auf ihn.\n wie bieten sie die Webauftritte für www.stiegl.at und www.murauer.at am selben Webserver an?\nA: Sie installieren einen zweiten Webserver\nB: sie verwenden IP-Basiertes VH\nC: sie verwenden namesbasiertes VH\nD: sie verwenden portbasiertes VH",
         "answers": [
-          "C", "c",
+          "C",
           "sie verwenden namesbasiertes VH"
         ]
       }
@@ -567,42 +542,34 @@
         "question": "Welche Kategorien von Netzwerkdateisystemen gibt es?",
         "answers": [
           "Verteilte Dateisysteme, Geteilte Dateisysteme",
-          "Verteilte Dateisysteme, geteilte Dateisysteme",
+          "Verteiltes Dateisystem, Geteiltes Dateisystem",
           "Geteilte Dateisysteme, Verteilte Dateisysteme",
-          "Geteilte Dateisysteme, verteilte Dateisysteme",
-          "verteilte dateisysteme, geteilte dateisysteme",
-          "geteilte dateisysteme, verteilte dateisysteme",
+          "Geteiltes Dateisystem, Verteiltes Dateisystem",
           "Distributed File System, Shared File System",
           "Distributed File Systems, Shared File Systems",
-          "distributed file system, shared file system",
-          "distributed file systems, shared file systems"
+          "Shared File System, Distributed File System",
+          "Shared File Systems, Distributed File Systems"
         ]
       },
       {
         "question": "Welche Kategorie von Netzwerkdateisystemen ermöglicht den verteilten Zugriff auf Daten/Dateien über ein Netzwerkprotokoll?",
         "answers": [
-          "Verteilte Dateisysteme",
-          "Verteilte dateisysteme",
-          "verteilte dateisysteme",
-          "Distributed File Systems", "Distributed File System",
-          "distributed file systems", "distributed file system"
+          "Verteilte Dateisysteme", "Verteiltes Dateisystem",
+          "Distributed File Systems", "Distributed File System"
         ]
       },
       {
         "question": "Welches Netzwerkdateisystem ist für Linux-Systeme bekannt und ermöglicht den blockbasierten gemeinsamen Zugriff auf Daten?",
         "answers": [
           "GFS",
-          "gfs",
           "Global File System",
-          "global file system",
-          "GFS (Global File System)",
-          "gfs (global file system)"
+          "GFS (Global File System)"
         ]
       },
       {
         "question": "Was ist die Hauptfunktion des File Transfer Protocol (FTP) auf der Anwendungsschicht?\na) Dateikompression\nb) Authentifizierung von Benutzern\nc) Netzwerkadressübersetzung (NAT)\nd) Übertragung von Dateien über das Netzwerk",
         "answers": [
-          "d", "D", "Übertragung von Dateien über das Netzwerk", "übertragung von dateien über das netzwerk", "d) Übertragung von Dateien über das Netzwerk"
+          "D", "Übertragung von Dateien über das Netzwerk", "d) Übertragung von Dateien über das Netzwerk"
         ]
       },
       {
@@ -613,97 +580,101 @@
           "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung, zuverlässige Übertragung von Daten",
           "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung, zuverlässige Datenübertragung",
           "File Sharing, Remote File Access, Usability, zuverlässige Datenübertragung",
-          "File Sharing, Remote File Access, Usability, zuverlässige Dateiübertragung"
+          "File Sharing, Remote File Access, Usability, zuverlässige Dateiübertragung",
+          "File Sharing, Remote File Access, Usability, zuverlässiger Datentransfer",
+          "File Sharing, Remote File Access, Usability, zuverlässiger Dateitransfer"
         ]
       },
       {
         "question": "Welche FTP Verbindungsarten gibt es?",
         "answers": [
-          "Aktiv, Passiv", "Aktiv, passiv", "Aktiv und passiv", "aktiv und passiv", "aktiv, passiv"
+          "Aktiv, passiv", "Active, passive", "Passiv, aktiv", "Passive, active"
         ]
       },
       {
         "question": "Was ist der Standardmodus für reine Textdateien in FTP?",
         "answers": [
-          "ASCII Mode", "ASCII Modus", "ASCII", "ascii"
+          "ASCII Mode", "ASCII Modus", "ASCII"
         ]
       },
       {
         "question": "Welcher Übertragungsmodus wird für Dateien mit Binärdaten (z.B. Bilder) empfohlen?",
         "answers": [
-          "Binary Mode", "Binary Modus", "Binary", "binary"
+          "Binary Mode", "Binary Modus", "Binary", "Binär"
         ]
       },
       {
         "question": "Was geschieht im Binary Mode während der Dateiübertragung?\na) Die Datei wird komprimiert\nb) Die Zeilenstruktur wird angepasst\nc) Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei\nd) Es wird eine Fehlerprüfung durchgeführt",
         "answers": [
-          "c", "Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei", "die übertragung erfolgt byte für byte, ohne veränderungen an der datei"
+          "c", "Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei", "c) Die Übertragung erfolgt Byte für Byte, ohne Veränderungen an der Datei"
         ]
       },
       {
         "question": "Warum wird der ASCII Mode in FTP für die Übertragung von reinen Textdateien bevorzugt?\na) Schnellere Übertragung\nb) Bessere Kompatibilität mit Grafikdateien\nc) Anpassung der Zeilenstruktur an das Ziel-Betriebssystem\nd) Unterstützung für internationale Zeichensätze",
         "answers": [
-          "c", "Anpassung der Zeilenstruktur an das Ziel-Betriebssystem", "anpassung der zeilenstruktur an das ziel-betriebssystem"
+          "c", "Anpassung der Zeilenstruktur an das Ziel-Betriebssystem", "c) Anpassung der Zeilenstruktur an das Ziel-Betriebssystem"
         ]
       },
       {
         "question": "Welches FTP-Feature ermöglicht das Fortführen einer unterbrochenen Dateiübertragung und wird durch das 'Restart'-Flag im Header gesteuert?",
         "answers": [
-          "Resume", "resume", "RESUME"
+          "Resume"
         ]
       },
       {
         "question": "Welches Protokoll wird generell für die Kommunikation beim File Transfer Protocol verwendet?",
         "answers": [
-          "TCP", "tcp"
+          "TCP"
         ]
       },
       {
         "question": "Welche Übertragungsart wird in FTP am häufigsten verwendet und ermöglicht die kontinuierliche Übertragung von Daten?",
         "answers": [
-          "Stream", "stream"
+          "Stream"
         ]
       },
       {
         "question": "Welche Übertragungsarten gibt es im FTP?",
         "answers": [
-          "Stream, Block, Gepackt", "stream, block, gepackt", "Stream, block, gepackt"
+          "Stream, block, gepackt", "Stream, gepackt, block",
+          "Block, stream, gepackt", "Block, gepackt, stream",
+          "Gepackt, block, stream", "Gepackt, stream, block"
         ]
       },
       {
         "question": "Welche FTP-Erweiterung bietet die Möglichkeit einer verschlüsselten Sitzung durch die Verwendung von TLS?",
         "answers": [
-          "FTPS", "ftps"
+          "FTPS"
         ]
       },
       {
         "question": "Welches FTP-Sicherheitsprotokoll verwendet SSH, um sowohl den Befehls- als auch den Datenkanal zu verschlüsseln?",
         "answers": [
-          "SFTP", "sftp"
+          "SFTP"
         ]
       },
       {
         "question": "Was ist der Hauptunterschied zwischen FTPS Explicit und FTPS Implicit?\na) Verschlüsselung der Dateien\nb) Notwendigkeit der Verschlüsselung\nc) Verwendung unterschiedlicher Ports\nd) Unterstützung von SCP",
         "answers": [
-          "b", "B", "Notwendigkeit der Verschlüsselung", "notwendigkeit der verschlüsselung"
+          "b", "Notwendigkeit der Verschlüsselung", "b) Notwendigkeit der Verschlüsselung"
         ]
       },
       {
         "question": "Warum ist es für einen üblichen FTP-Client nicht möglich, sich an einem SFTP-Server anzumelden?\na) SFTP erfordert eine spezielle Authentifizierungsmethode\nb) SFTP verwendet unterschiedliche TCP-Ports\nc) SFTP erfordert eine Verschlüsselung durch SSL\nd) SFTP ist ein anderes Protokoll als FTP",
         "answers": [
-          "d", "D", "SFTP ist ein anderes Protokoll als FTP", "sftp ist ein anderes protokoll als ftp"
+          "d", "SFTP ist ein anderes Protokoll als FTP", "d) SFTP ist ein anderes Protokoll als FTP"
         ]
       },
       {
         "question": "Was ist der Zweck von WebDAV im Kontext von FTP?\na) Verbesserung der Verschlüsselung\nb) Web-basierte Dateiauthorisierung und Versionierung\nc) Authentifizierung über Lightweight Directory Access Protocol (LDAP)\nd) Integration mit Active Directory (AD)",
         "answers": [
-          "b", "B", "Web-basierte Dateiauthorisierung und Versionierung", "web-basierte dateiauthorisierung und versionierung"
+          "b", "Web-basierte Dateiauthorisierung und Versionierung", "b) Web-basierte Dateiauthorisierung und Versionierung"
         ]
       },
       {
         "question": "Welches Protokoll ermöglicht die Integration von FTP mit Lightweight Directory Access Protocol und Active Directory für die Authentifizierung?",
         "answers": [
-          "LDAP", "ldap"
+          "LDAP"
         ]
       },
       {
@@ -715,43 +686,43 @@
       {
         "question": "Was ist eine zwingende Voraussetzung für PXE, um den Netzwerkbootvorgang zu initiieren?",
         "answers": [
-          "DHCP", "dhcp", "Dynamic Host Configuration Protocol", "dynamic host configuration protocol"
+          "DHCP", "Dynamic Host Configuration Protocol"
         ]
       },
       {
         "question": "Was bedeutet die Abkürzung NFS im Kontext von Dateisystemen?",
         "answers": [
-          "Network File System", "network file system"
+          "Network File System"
         ]
       },
       {
         "question": "Welche NFS-Option kann verwendet werden, um die Ausführung von SUID-Binärdateien auf dem NFS-Client zu verhindern?",
         "answers": [
-          "nosuid", "NOSUID"
+          "nosuid"
         ]
       },
       {
         "question": "Welche NFS-Version bietet Verschlüsselung an?",
         "answers": [
-          "NFS4", "nfs4"
+          "NFS4", "NFS-4"
         ]
       },
       {
         "question": "Welcher Port wird für die Kommunikation mit dem NFS-Portmapper verwendet?",
         "answers": [
-          "111 UDP", "111 udp", "Port 111 UDP", "port 111 udp", "UDP Port 111", "udp port 111", "udp 111", "UDP 111"
+          "111 UDP", "Port 111 UDP", "UDP Port 111", "UDP 111"
         ]
       },
       {
         "question": "Was charakterisiert NFSv4 als 'state-full' Protokoll?\na) Es verfolgt den Status der übertragenen Daten\nb) Es verwendet den Zustand des Clients zur Authentifizierung\nc) Es speichert den Zustand des Dateisystems auf dem Server\nd) Es erfordert eine permanente Netzwerkverbindung während der Übertragung",
         "answers": [
-          "a", "A", "Es verfolgt den Status der übertragenen Daten", "ss verfolgt den status der übertragenen daten"
+          "a", "Es verfolgt den Status der übertragenen Daten", "a) Es verfolgt den Status der übertragenen Daten"
         ]
       },
       {
         "question": "Was bedeutet LDAP?",
         "answers": [
-          "Lightweight Directory Access Protocol", "lightweight directory access protocol"
+          "Lightweight Directory Access Protocol"
         ]
       }
     ]
