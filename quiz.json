@@ -127,10 +127,17 @@
         ]
       },
       {
-        "question": "Was sind die Funktionen der SSH?",
+        "question": "Was sind die Funktionen von SSH?",
         "answers": [
           "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, SCP, SFTP",
           "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, Sicheres Kopieren im Netzwerk, Sicherer Datentransfer im Netzwerk"
+        ]
+      },
+      {
+        "question": "Wie startet man den SSH Daemon neu?",
+        "answers": [
+          "servertec# systemctl restart sshd.service",
+          "systemctl restart sshd.service"
         ]
       }
     ]
@@ -230,6 +237,32 @@
         "answers": [
           "Fully Qualified Domain Name"
         ]
+      },
+      {
+        "question": "Wo befinden sich die Konfigurationsdateien von BIND9? (absoluter Pfad)",
+        "answers": [
+          "/etc/bind", "/etc/bind/"
+        ]
+      },
+      {
+        "question": "Welche Datei ist für die globalen Konfigurationen (z.B. Zugriffsrechte & Verschlüsselung) zuständig?",
+        "answers": [
+          "/etc/bind/named.conf",
+          "named.conf"
+        ]
+      },
+      {
+        "question": "Welche Datei ist für die lokalen Konfigurationen (z.B. lokal verwaltete Zonen und eigene Domäne) zuständig?",
+        "answers": [
+          "/etc/bind/named.conf.local",
+          "named.conf.local"
+        ]
+      },
+      {
+        "question": "Welchem Verzeichnis befinden sich die Zonen-Dateien für Forward- und Reverse-Lookup-Zonen? (absoluter Pfad)",
+        "answers": [
+          "/etc/bind/zonefiles"
+        ]
       }
     ]
   },
@@ -241,6 +274,48 @@
         "answers": [
           "Statisch, dynamisch (DHCP), automatisch (permanent), hybrid",
           "Statisch, dynamisch, automatisch, hybrid"
+        ]
+      },
+      {
+        "question": "Wie installiert man DHCP?",
+        "answers": [
+          "servertec# apt-get install isc-dhcp-server",
+          "apt-get install isc-dhcp-server"
+        ]
+      },
+      {
+        "question": "Wie kann man den DHCP-Server stoppen?",
+        "answers": [
+          "servertec# /etc/init.d/isc-dhcp-server stop",
+          "/etc/init.d/isc-dhcp-server stop"
+        ]
+      },
+      {
+        "question": "Wo befinden sich die DHCP Konfigurationsdateien?",
+        "answers": [
+          "/etc/dhcp/",
+          "/etc/dhcp"
+        ]
+      },
+      {
+        "question": "Welche Konfigurationsdatei konfiguriert den Client, der DHCP-Anfragen durchführt?",
+        "answers": [
+          "/etc/dhcp/dhclient.conf",
+          "dhclient.conf"
+        ]
+      },
+      {
+        "question": "Welche Konfigurationsdatei konfiguriert den DHCP-Server?",
+        "answers": [
+          "/etc/dhcp/dhcpd.conf",
+          "dhcpd.conf"
+        ]
+      },
+      {
+        "question": "Welche Konfigurationsdatei konfiguriert, über welches Interface DHCP Anfragen beantworten soll?",
+        "answers": [
+          "/etc/default/isc-dhcp-server",
+          "isc-dhcp-server"
         ]
       },
       {
@@ -505,11 +580,11 @@
         ]
       },
       {
-        "question": "Was schließen Sie aus folgendem Snippet?\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+        "question": "Was schließen Sie aus folgendem Snippet?\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclient\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
         "answers": [
           "B, D", "D, B",
           "Der Dienst \"dhclient\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
-          "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
+          "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclient\" kann obige Einstellungen ändern"
         ]
       },
       {
