@@ -261,7 +261,7 @@
       {
         "question": "Welchem Verzeichnis befinden sich die Zonen-Dateien für Forward- und Reverse-Lookup-Zonen? (absoluter Pfad)",
         "answers": [
-          "/etc/bind/zonefiles"
+          "/etc/bind/zonefiles", "/etc/bind/zonefiles/"
         ]
       }
     ]
