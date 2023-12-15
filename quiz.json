@@ -80,18 +80,6 @@
           "Port 53",
           "TCP Port 53"
         ]
-      },
-      {
-        "question": "Was sind die Eigenschaften des Domain Name System?",
-        "answers": [
-          "Hierarchischer Aufbau, Skalierbarkeit, dezentrale Organisation, Verwendung von Domänennamen"
-        ]
-      },
-      {
-        "question": "Wofür steht FQDN?",
-        "answers": [
-          "Fully Qualified Domain Name"
-        ]
       }
     ]
   },
@@ -229,6 +217,18 @@
           "cdfegba",
           "c-d-f-e-g-b-a",
           "c - d - f - e - g - b - a"
+        ]
+      },
+      {
+        "question": "Was sind die Eigenschaften des Domain Name System?",
+        "answers": [
+          "Hierarchischer Aufbau, Skalierbarkeit, dezentrale Organisation, Verwendung von Domänennamen"
+        ]
+      },
+      {
+        "question": "Wofür steht FQDN?",
+        "answers": [
+          "Fully Qualified Domain Name"
         ]
       }
     ]
