@@ -143,7 +143,7 @@
         ]
       },
       {
-        "question": "Was sind die Funktionen des Domain Name System?",
+        "question": "Was sind die Funktionen der SSH?",
         "answers": [
           "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, SCP, SFTP",
           "Remote Shell, Tunneling, Port Forwarding, X11 Session Forwarding, Sicheres Kopieren im Netzwerk, Sicherer Datentransfer im Netzwerk"
