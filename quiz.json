@@ -200,7 +200,7 @@
       {
         "question": "Wie kann man DNS installieren?",
         "answers": [
-          "servertec# apt-get install dnsutils",
+          "servertec# apt-get install bind9",
           "apt-get install dnsutils"
         ]
       },
