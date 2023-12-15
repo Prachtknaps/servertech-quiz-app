@@ -312,7 +312,7 @@
         ]
       },
       {
-        "question": "Welche Konfigurationsdatei konfiguriert, über welches Interface DHCP Anfragen beantworten soll?",
+        "question": "Welche Konfigurationsdatei konfiguriert, über welches Interface DHCP Anfragen beantworten sollen?",
         "answers": [
           "/etc/default/isc-dhcp-server",
           "isc-dhcp-server"
