@@ -571,7 +571,11 @@
           "Geteilte Dateisysteme, Verteilte Dateisysteme",
           "Geteilte Dateisysteme, verteilte Dateisysteme",
           "verteilte dateisysteme, geteilte dateisysteme",
-          "geteilte dateisysteme, verteilte dateisysteme"
+          "geteilte dateisysteme, verteilte dateisysteme",
+          "Distributed File System, Shared File System",
+          "Distributed File Systems, Shared File Systems",
+          "distributed file system, shared file system",
+          "distributed file systems, shared file systems"
         ]
       },
       {
@@ -580,8 +584,8 @@
           "Verteilte Dateisysteme",
           "Verteilte dateisysteme",
           "verteilte dateisysteme",
-          "Distributed File Systems",
-          "distributed file systems"
+          "Distributed File Systems", "Distributed File System",
+          "distributed file systems", "distributed file system"
         ]
       },
       {
@@ -638,7 +642,7 @@
         ]
       },
       {
-        "question": "Welches FTP-Feature ermöglicht dsa Fortführen einer unterbrochenen Dateiübertragung und wird durch das 'Restart'-Flag im Header gesteuert?",
+        "question": "Welches FTP-Feature ermöglicht das Fortführen einer unterbrochenen Dateiübertragung und wird durch das 'Restart'-Flag im Header gesteuert?",
         "answers": [
           "Resume", "resume", "RESUME"
         ]
