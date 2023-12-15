@@ -414,13 +414,13 @@
     "name": "SMTP-IMAP-POP3",
     "questions": [
       {
-        "question": "welches Protokoll ist für weiterleitung und versenden von Mails zuständig?",
+        "question": "Welches Protokoll ist für die Weiterleitung und das Versenden von Mails zuständig?",
         "answers": [
           "SMTP"
         ]
       },
       {
-        "question": "welches Protokoll ist für Auflisten, Abholen und Löschen von Mails am Server zuständig?",
+        "question": "Welches Protokoll ist für das Auflisten, Abholen und Löschen von Mails am Server zuständig?",
         "answers": [
           "POP3"
         ]
@@ -489,14 +489,14 @@
         "question": "Mit Welcher Konfigurationsdatei bestimme ich über welches Netzwerk-Interface der DCHP dienst läuft?\nA: /etc/dhcp/dhcp_config\nB: /etc/network/interfaces\nC: /etc/default/isc-dhcp-server\nD: /etc/resolv.conf",
         "answers": [
           "/etc/default/isc-dhcp-server",
-          "C"
+          "C", "c"
         ]
       },
       {
-        "question": "wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
+        "question": "Wieso wird das Common Gateway Interface heute kaum noch benutzt?\nA: es kann nur Perl verwendet werden\nB: jede Anfrage braucht einen Prozess\nC: die CGI Anwendung bleibt dauerhaft geladen",
         "answers": [
           "Jede Anfrage braucht einen Prozess",
-          "B"
+          "B", "b"
         ]
       },
       {
@@ -506,16 +506,16 @@
           "FCGI - Fast Common Gateway Interface, Interpreter als Servermodule",
           "Interpreter als Servermodule, FCGI",
           "Interpreter als Servermodule, FCGI - Fast Common Gateway Interface",
-          "B, D",
-          "D, B"
+          "B, D", "b, d",
+          "D, B", "d, b"
         ]
       },
       {
-        "question": "Welche eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
+        "question": "Welche Eigenschaften treffen auf eine Domain im DNS zu?\nA: Eine Domain kann beliebig in durch Punkte getrennte Subdomains unterteilt werden\nB: Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS\nC: Ein FQDN gilt ausschließlich für einen HOST bzw einen Server im DNS",
         "answers": [
           "Eine voll qualifizierte Domain beschreibt entweder einen Host oder einen Ort im DNS",
           "eine voll qualifizierte domain beschreibt entweder einen host oder einen ort im dns",
-          "B"
+          "B", "b"
         ]
       },
       {
@@ -523,15 +523,15 @@
         "answers": [
           "Er dient dem \"Load Balancing\" und der Redundanz, er bekommt Daten durch Vollen oder Imkrementellen Zonentransfer",
           "r dient dem \"load balancing\" und der redundanz, er bekommt daten durch vollen oder imkrementellen zonentransfer",
-          "B, D",
-          "D, B"
+          "B, D", "b, d",
+          "D, B", "d, b"
         ]
       },
       {
-        "question": "was schließen sie aus folgendem snippet:\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
+        "question": "Was schließen Sie aus folgendem Snippet?\ndomain itm11.servertec\nsearch itm11.servertec\nnameserver 192.168.196.2 \nA: Der Resolver richtet DNS Abfragen an IP Adresse 192.168.0.1 \nB: Der Dienst \"dhclent\" kann obige Einstellungen ändern \nC: Die Konfigurationsdatei dazu ist \"/etc/hosts\" \nD: Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
         "answers": [
-          "B, D",
-          "D, B",
+          "B, D", "b, d",
+          "D, B", "d, b",
           "Der Dienst \"dhclient\" kann obige Einstellungen ändern, Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\"",
           "Die Konfigurationsdatei dazu ist \"/etc/resolv.conf\", Der Dienst \"dhclent\" kann obige Einstellungen ändern"
         ]
@@ -539,22 +539,22 @@
       {
         "question": "Wie kann man die Website \"swd12\" von der Apache 2 Konfiguration entfernen?\nA: mit dem Befehl \"a2enmod swd12\" \nB: mit dem Befehl \"rm ../sites-enabled/swd12\" \nC: mit dem Befehl \"a2dissite swd12\" \nD: mit dem Befehl \"a2dismod default_swd12\"",
         "answers": [
-          "B, C",
-          "C, B",
+          "B, C", "b, c",
+          "C, B", "c, b",
           "mit dem Befehl \"rm ../sites-enabled/swd12\", mit dem Befehl \"a2dissite swd12\""
         ]
       },
       {
         "question": "Welches Verzeichnis liefert Logs zu verschiedenen Diensten?\nA: /opt/log \nB: /var/www/log \nC: /log \nD: /var/log",
         "answers": [
-          "D",
+          "D", "d",
           "/var/log"
         ]
       },
       {
         "question": "Ihr Server hat eine einzelne IP Adresse und mehrere CNAME Einträge im DNS zeigen auf ihn.\n wie bieten sie die Webauftritte für www.stiegl.at und www.murauer.at am selben Webserver an?\nA: Sie installieren einen zweiten Webserver\nB: sie verwenden IP-Basiertes VH\nC: sie verwenden namesbasiertes VH\nD: sie verwenden portbasiertes VH",
         "answers": [
-          "C",
+          "C", "c",
           "sie verwenden namesbasiertes VH"
         ]
       }
