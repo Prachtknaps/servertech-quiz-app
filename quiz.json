@@ -608,7 +608,12 @@
       {
         "question": "Was sind die Ziele des FTP?",
         "answers": [
-          "File Sharing, Remote File Access, Usability, zuverlässige Datenübertragung"
+          "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung für verbesserte Usability, effiziente und zuverlässige Übertragung von Daten",
+          "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung für verbesserte Usability, zuverlässige Übertragung von Daten",
+          "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung, zuverlässige Übertragung von Daten",
+          "Dateifreigabe, Remote-Zugriff auf Dateien, Abstraktion einer Vielzahl von Systemen zur Dateispeicherung, zuverlässige Datenübertragung",
+          "File Sharing, Remote File Access, Usability, zuverlässige Datenübertragung",
+          "File Sharing, Remote File Access, Usability, zuverlässige Dateiübertragung"
         ]
       },
       {
@@ -734,13 +739,19 @@
       {
         "question": "Welcher Port wird für die Kommunikation mit dem NFS-Portmapper verwendet?",
         "answers": [
-          "111 UDP", "111 udp", "Port 111 UDP", "port 111 udp", "UDP Port 111", "udp port 111"
+          "111 UDP", "111 udp", "Port 111 UDP", "port 111 udp", "UDP Port 111", "udp port 111", "udp 111", "UDP 111"
         ]
       },
       {
         "question": "Was charakterisiert NFSv4 als 'state-full' Protokoll?\na) Es verfolgt den Status der übertragenen Daten\nb) Es verwendet den Zustand des Clients zur Authentifizierung\nc) Es speichert den Zustand des Dateisystems auf dem Server\nd) Es erfordert eine permanente Netzwerkverbindung während der Übertragung",
         "answers": [
           "a", "A", "Es verfolgt den Status der übertragenen Daten", "ss verfolgt den status der übertragenen daten"
+        ]
+      },
+      {
+        "question": "Was bedeutet LDAP?",
+        "answers": [
+          "Lightweight Directory Access Protocol", "lightweight directory access protocol"
         ]
       }
     ]
