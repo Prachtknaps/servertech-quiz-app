@@ -459,7 +459,9 @@
         "question": "Welche CGI-Alternativen gibt es?",
         "answers": [
           "Interpreter als Server Module, Fast CGI",
-          "Interpreter als Server Module, FCGI"
+          "Interpreter als Server Module, FCGI",
+          "Interpreter als Server Modul, Fast CGI",
+          "Interpreter als Server Modul, FCGI"
         ]
       },
       {
