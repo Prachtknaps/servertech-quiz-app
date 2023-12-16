@@ -808,6 +808,12 @@
         "answers": [
           "Lightweight Directory Access Protocol"
         ]
+      },
+      {
+        "question": "Welche 4 Protokolle gehören zum Network File System?",
+        "answers": [
+          "NFS, Mount, Network Status Monitor, Network Lock Manager"
+        ]
       }
     ]
   }
