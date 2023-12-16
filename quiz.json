@@ -152,7 +152,7 @@
         ]
       },
       {
-        "question": "Welche Arten von DNS-Servern gibt es?",
+        "question": "Welche Arten von DNS-Servern gibt es? (abgesehen von autoritativ und nicht autoritativ)",
         "answers": [
           "Caching Name Server, Forwarding Name Server, Stealth Name Server, Authoritative Only Name Server, Split Horizon Name Server",
           "Caching Name Servers, Forwarding Name Servers, Stealth Name Servers, Authoritative Only Name Servers, Split Horizon Name Servers"
