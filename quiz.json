@@ -794,7 +794,8 @@
       {
         "question": "Welcher Port wird für die Kommunikation mit dem NFS-Portmapper verwendet?",
         "answers": [
-          "111 UDP", "Port 111 UDP", "UDP Port 111", "UDP 111"
+          "111 UDP/TCP", "Port 111 UDP/TCP", "UDP/TCP Port 111", "UDP/TCP 111",
+          "111 TCP/UDP", "Port 111 TCP/UDP", "TCP/UDP Port 111", "TCP/UDP 111"
         ]
       },
       {
